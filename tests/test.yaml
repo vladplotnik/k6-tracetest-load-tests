@@ -1,0 +1,8 @@
+type: Test
+spec:
+  id: EHyPPkgSg
+  name: Place order
+  trigger:
+    type: traceid
+    traceid:
+      id: ${env:TRACE_ID}
